@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    background-color: #3b0d11ff;
+}
+
+.header {
+ background-color: #748386ff;
+}
+
+.opal {
+color: #9dc7c8ff;
+
+}

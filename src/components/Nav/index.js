@@ -32,24 +32,24 @@ function Nav(props) {
           <li className={`px-3 ${resumeSelected && 'opal'}`}>
             <span onClick={() => {setContactSelected(false); setResumeSelected(true)}}>About</span>
           </li>
+
+
+
           {categories.map((category) => (
             <li
-              className={`px-3 ${
-                currentCategory.name === category.name && !contactSelected && !resumeSelected && 'opal'
-                }`}
-              key={category.name}
-            >
-              <span
-                onClick={() => {
+              className={`px-3 ${ currentCategory.name === category.name && !contactSelected && !resumeSelected && 'opal'}`}
+              key={category.name}>
+              <span onClick={() => {
                   setCurrentCategory(category);
                   setContactSelected(false);
-                }}
-              >
+                }}>
                 {capitalizeFirstLetter(category.name)}
               </span>
             </li> 
-
           ))}
+
+
+          
           <li className={`px-3 ${contactSelected && 'opal'}`}>
             <span onClick={() => {setContactSelected(true); setResumeSelected(false)}}>Contact</span>
           </li>

@@ -7,16 +7,13 @@ function About() {
     <div>
       <h4>Preferences</h4>
       <div className="flip">
-        <div
-          className="front">
-              <img src={condo}></img>
+        <div className="front">
+          <img src={condo}></img>
           <h1 className="text-shadow">condo</h1>
         </div>
         <div className="back">
           <h2>mooon</h2>
-          <p>
-            this is da mon
-          </p>
+          <p>this is da mon</p>
         </div>
       </div>
       <div className="flip">

@@ -10,8 +10,8 @@ function Nav(props) {
         contactSelected,
         currentCategory,
         setContactSelected,
-        resumeSelected,
-        setResumeSelected,
+        aboutSelected,
+        setAboutSelected,
       } = props;
 
     return (
@@ -19,29 +19,30 @@ function Nav(props) {
       <nav>
     
     
-        <ul className="flex items-center">
+        <ul className="flex items-center ">
         <li>
-      <h2 className='px-4 text-3xl'>
+      <h2 className='px-4 text-3xl hover:text-slate-500'>
         <a href="/">
            Jared Pennington
         </a>
       </h2>
       </li>
          <div className="pr-3 ml-auto text-xl">
-         <div className='flex flex-row'>
-          <li className={`px-3 ${resumeSelected && 'opal'}`}>
-            <span onClick={() => {setContactSelected(false); setResumeSelected(true)}}>About</span>
+         <div className='flex flex-row '>
+          <li className={`px-3 ${aboutSelected && 'opal'}`}>
+            <span onClick={() => {setContactSelected(false); setAboutSelected(true)}}>About</span>
           </li>
 
 
 
           {categories.map((category) => (
             <li
-              className={`px-3 ${ currentCategory.name === category.name && !contactSelected && !resumeSelected && 'opal'}`}
+              className={`px-3 ${ currentCategory.name === category.name && !contactSelected && !aboutSelected && 'opal'}`}
               key={category.name}>
               <span onClick={() => {
                   setCurrentCategory(category);
                   setContactSelected(false);
+                  setAboutSelected(false);
                 }}>
                 {capitalizeFirstLetter(category.name)}
               </span>
@@ -51,7 +52,7 @@ function Nav(props) {
 
           
           <li className={`px-3 ${contactSelected && 'opal'}`}>
-            <span onClick={() => {setContactSelected(true); setResumeSelected(false)}}>Contact</span>
+            <span onClick={() => {setContactSelected(true); setAboutSelected(false)}}>Contact</span>
           </li>
           </div>
           </div>

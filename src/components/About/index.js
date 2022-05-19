@@ -1,18 +1,38 @@
 import React from "react";
 import "./index.css";
 import condo from "../../assets/condo.jpg";
+import water from "../../assets/water.jpg";
+import van from "../../assets/van.JPG";
+import erika from "../../assets/erika.JPG";
+import philly from "../../assets/philly.JPG";
+import chalkboard from "../../assets/chalkboard.JPG";
+
+
+
 
 function About() {
   return (
     <div>
-      <h4>Preferences</h4>
+      <br></br>
+      <h1 className="text-4xl	">Nice to meet you! 
+      <h3 className="text-xs	">(unofficially)</h3></h1>
+    <p>write about yourself in a good way and maybe use a selfie too? hmmmmmm. creating padding where the br tags are. figure out how to change the sizes of the flippers. also maybe only do like 4 flippers. </p>
+    <br>
+    </br>
+    <br>
+    </br>
+      <h4 className="text-2xl ">Preferences</h4>
+      
       <div className="flip">
-        <div className="front">
-          <img src={condo}></img>
+        <div className="front"
+         style={{
+            backgroundImage:
+              `url(${condo})`,
+          }}>
           <h1 className="text-shadow">condo</h1>
         </div>
         <div className="back">
-          <h2>mooon</h2>
+          <h1>mooon</h1>
           <p>this is da mon</p>
         </div>
       </div>
@@ -21,7 +41,7 @@ function About() {
           className="front"
           style={{
             backgroundImage:
-              "url(https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)",
+              `url(${water})`,
           }}
         >
           <h1 className="text-shadow">LAKE</h1>
@@ -39,7 +59,7 @@ function About() {
           className="front"
           style={{
             backgroundImage:
-              "url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)",
+              `url(${chalkboard})`,
           }}
         >
           <h1 className="text-shadow">OCEAN</h1>
@@ -53,13 +73,13 @@ function About() {
         </div>
       </div>
 
-      <h4>Vertical Flip</h4>
+      <h4 className="text-2xl "></h4>
       <div className="flip flip-vertical">
         <div
           className="front"
           style={{
             backgroundImage:
-              "url(https://images.pexels.com/photos/38136/pexels-photo-38136.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)",
+              `url(${van})`,
           }}
         >
           <h1 className="text-shadow">FOREST</h1>
@@ -77,7 +97,7 @@ function About() {
           className="front"
           style={{
             backgroundImage:
-              "url(https://images.pexels.com/photos/34950/pexels-photo.jpg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)",
+              `url(${erika})`,
           }}
         >
           <h1 className="text-shadow">TRACK</h1>
@@ -95,7 +115,7 @@ function About() {
           className="front"
           style={{
             backgroundImage:
-              "url(https://images.pexels.com/photos/34546/sunset-lake-landscape-summer.jpg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)",
+              `url(${philly})`,
           }}
         >
           <h1 className="text-shadow">SWAMP</h1>

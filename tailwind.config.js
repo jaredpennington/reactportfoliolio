@@ -13,7 +13,7 @@ module.exports = {
     extend: {
        colors: {
          'darksienna': {
-            '100': '#3b0d11ff',
+            '100': '#042a4a',
          },
          'wine': {
           '100': '#6a3937ff',

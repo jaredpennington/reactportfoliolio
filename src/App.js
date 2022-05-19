@@ -17,32 +17,31 @@ function App() {
   ])
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
-  const [resumeSelected, setResumeSelected] = useState(false);
   const [contactSelected, setContactSelected] = useState(false);
   const [aboutSelected, setAboutSelected] = useState(true);
 
   return   (
-    <div className='bg-darksienna-100'>
+    <div>
         <Nav categories={categories}
       setCurrentCategory={setCurrentCategory}
       currentCategory={currentCategory}
-      resumeSelected={resumeSelected}
-      setResumeSelected={setResumeSelected}
       contactSelected={contactSelected}
       setContactSelected={setContactSelected}
       aboutSelected={aboutSelected}
       setAboutSelected={setAboutSelected}></Nav>
         <main>
+          
           {!contactSelected && aboutSelected ? (
-            <>
+            <div>
               <About></About>
-            </>
+            </div>
           ) : !contactSelected && !aboutSelected ? (
-              <Projects></Projects>
+              <Projects currentCategory={currentCategory}></Projects>
               
-            ): (
+            ) : (
               <Contact></Contact>
             )}
+            
         </main>
       </div>
     );

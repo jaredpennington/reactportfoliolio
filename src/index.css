@@ -3,15 +3,32 @@
 @tailwind utilities;
 
 
+
 :root {
-    background-color: #3b0d11ff;
+    background-image: url("../src/assets/moon.JPG");
+    background-size:cover;
 }
 
+
 .header {
- background-color: #748386ff;
+ background-color: #bdbcc1;
 }
 
 .opal {
-color: #9dc7c8ff;
+color: #6a6173
+;
 
+}
+
+
+h1 {
+    font-size: 2em;
+    color: #f3f2f0;
+  }
+
+
+.contact-text {
+    font-size: 1.5em;
+    color: #f3f2f0;
+    
 }

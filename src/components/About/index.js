@@ -22,7 +22,7 @@ function About() {
     <br>
     </br>
       <h4 className="text-2xl ">Preferences</h4>
-      
+      <div className="align-bottom cards-at-the-bottom">
       <div className="flip">
         <div className="front"
          style={{
@@ -128,6 +128,7 @@ function About() {
           </p>
         </div>
       </div>
+    </div>
     </div>
   );
 }

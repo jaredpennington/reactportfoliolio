@@ -90,3 +90,6 @@ h4 {
   color: #f3f2f0;
 }
 
+.cards-at-the-bottom {
+  margin-top: auto !important;
+}

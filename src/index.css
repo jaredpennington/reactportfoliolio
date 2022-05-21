@@ -19,6 +19,46 @@ color: #6a6173
 ;
 
 }
+hr {
+    margin: 20px;
+   
+}
+
+#about-me-desc {
+    display: flex; 
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+#about-me-desc img {
+    aspect-ratio: 6/9;
+    border-radius: 1000px;
+    
+}
+
+#about-me-desc p {
+    flex: 0 0 100%;
+}
+
+.contact-me-style {
+    margin: 0 20px;
+    color: #fff;
+}
+
+.svg-container {
+    text-align: -webkit-center;
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.svg-container svg {
+    height: auto;
+    width: 45px    
+}
+
 .carousel-style {
     padding: 25px;
 }
@@ -49,3 +89,5 @@ h1 {
     color: #f3f2f0;
     
 }
+
+

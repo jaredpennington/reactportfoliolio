@@ -7,15 +7,21 @@ import van from "../../assets/van.JPG";
 
 function About() {
   return (
-    <div>
-      <br></br>
+    <div className="container mx-auto mt-6 ">
+    
       <h1 className="text-4xl	">Nice to meet you! 
       <h3 className="text-xs	">(unofficially)</h3></h1>
-    <p>write about yourself in a good way and maybe use a selfie too? hmmmmmm. creating padding where the br tags are. figure out how to change the sizes of the flippers. also maybe only do like 4 flippers. </p>
-    <br>
-    </br>
-    <br>
-    </br>
+      <div id="about-me-desc">
+    <p className="text-left">
+      write about yourself in a good way and maybe use a selfie too? hmmmmmm. creating padding where the br tags are. figure out how to change the sizes of the flippers. also maybe only do like 4 flippers. </p>
+      <img src="https://images.pixieset.com/98880664/46c2be787cbb76cdf94e33127be2551e-medium.jpg"></img>
+    </div>
+
+
+
+
+    <hr></hr>
+    
       <h4 className="text-2xl ">Preferences</h4>
       <div className="align-bottom cards-at-the-bottom">
       <div className="flip">

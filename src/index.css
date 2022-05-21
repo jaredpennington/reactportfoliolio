@@ -19,7 +19,20 @@ color: #6a6173
 ;
 
 }
+.links {
+    justify-content: center;
+}
+.deployed-github {
+    display: flex;
+    justify-content:center;
+}
+.deployed-github a:nth-child(1){
+    margin-right: 5px;
+}
 
+.deployed-github a:nth-child(2){
+    margin-left: 5px;
+}
 
 h1 {
     font-size: 2em;

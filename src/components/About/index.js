@@ -3,11 +3,6 @@ import "./index.css";
 import condo from "../../assets/condo.jpg";
 import water from "../../assets/water.jpg";
 import van from "../../assets/van.JPG";
-import erika from "../../assets/erika.JPG";
-import philly from "../../assets/philly.JPG";
-import chalkboard from "../../assets/chalkboard.JPG";
-
-
 
 
 function About() {
@@ -44,24 +39,7 @@ function About() {
               `url(${water})`,
           }}
         >
-          <h1 className="text-shadow">LAKE</h1>
-        </div>
-        <div className="back">
-          <h2>Angular</h2>
-          <p>
-            Good tools make application development quicker and easier to
-            maintain than if you did everyth1ng by hand..
-          </p>
-        </div>
-      </div>
-      <div className="flip">
-        <div
-          className="front"
-          style={{
-            backgroundImage:
-              `url(${chalkboard})`,
-          }}
-        >
+         
           <h1 className="text-shadow">OCEAN</h1>
         </div>
         <div className="back">
@@ -82,24 +60,7 @@ function About() {
               `url(${van})`,
           }}
         >
-          <h1 className="text-shadow">FOREST</h1>
-        </div>
-        <div className="back">
-          <h2>Angular</h2>
-          <p>
-            Good tools make application development quicker and easier to
-            maintain than if you did everyth1ng by hand..
-          </p>
-        </div>
-      </div>
-      <div className="flip flip-vertical">
-        <div
-          className="front"
-          style={{
-            backgroundImage:
-              `url(${erika})`,
-          }}
-        >
+          
           <h1 className="text-shadow">TRACK</h1>
         </div>
         <div className="back">
@@ -110,24 +71,9 @@ function About() {
           </p>
         </div>
       </div>
-      <div className="flip flip-vertical">
-        <div
-          className="front"
-          style={{
-            backgroundImage:
-              `url(${philly})`,
-          }}
-        >
-          <h1 className="text-shadow">SWAMP</h1>
-        </div>
-        <div className="back">
-          <h2>Angular</h2>
-          <p>
-            Good tools make application development quicker and easier to
-            maintain than if you did everyth1ng by hand..
-          </p>
-        </div>
-      </div>
+      
+        
+      
     </div>
     </div>
   );

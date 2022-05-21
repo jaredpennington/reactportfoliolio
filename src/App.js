@@ -10,9 +10,7 @@ function App() {
     {
       name: 'Projects',
     },
-    {
-      name: 'Resume',
-    }
+
   ])
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);

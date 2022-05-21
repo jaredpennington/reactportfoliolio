@@ -2,53 +2,59 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 // import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
-import beach from "../../assets/beach.jpg";
+import cocktailparty from '../../assets/cocktailparty.png';
+import photoport from '../../assets/photoport.png';
+import ecommerce from '../../assets/ecommerce.png'
+import crono from '../../assets/crono.png';
+import employeegenerator from '../../assets/employeegenerator.png'
+import notetaker from '../../assets/notetaker.png'
+
 
 function ProjectList() {
   const projects = [
     {
-      title: "cocktail Party 1",
+      title: "cocktail Party",
       description:
-        "a shit ton of text the ipsom shit looks ugly idc i dont like it ok you drinksdflvkjsdfnvoiuasdhfgoslkjdbodxifvbnskldjff696969696969696969696969696dfskjvbsdflkjbsdmn",
-      github: "github.com",
-      deployed: "deployed.com",
+        "a shit ton of text the ipsom shit looks ugly idc i dont like it ok you ",
+        github: "https://github.com/jaredpennington/cocktailParty",
+        deployed: "https://cocktail-party-jp-ac.herokuapp.com/",
     },
     {
-      title: "cocktail Party",
-      description: "dummy desc 1",
-      github: "github.com",
-      deployed: "deployed.com",
+      title: "Photo-port",
+      description: "a photography portfolio developed with react.",
+      github: "https://github.com/jaredpennington/photo-port",
+      deployed: "https://jaredpennington.github.io/photo-port/",
     },
     {
-      title: "cocktail Party",
-      description: "dummy desc 1",
-      github: "github.com",
-      deployed: "deployed.com",
+      title: "E-commerce back end",
+      description: "The back end code of an e-commerce website utilizing object-relational-mapping.",
+      github: "https://github.com/jaredpennington/E-commerceBackEnd",
+      deployed: "",
     },
     {
-      title: "cocktail Party",
-      description: "dummy desc 1",
-      github: "github.com",
-      deployed: "deployed.com",
+      title: "Crono",
+      description: "The back end of a social media application utilizing API's",
+      github: "https://github.com/jaredpennington/crono",
+      deployed: "",
     },
     {
-      title: "cocktail Party",
-      description: "dummy desc 1",
-      github: "github.com",
-      deployed: "deployed.com",
+      title: "Employe Generator",
+      description: "A team profile generator utilizing object-oriented-programing and testing.",
+      github: "https://github.com/jaredpennington/employeeGenerator",
+      deployed: "",
     },
     {
-      title: "cocktail Party",
-      description: "dummy desc 1",
-      github: "github.com",
-      deployed: "deployed.com",
+      title: "Note Taker",
+      description: "",
+      github: "https://github.com/jaredpennington/notetaker",
+      deployed: "https://jaredsnotes.herokuapp.com/notes",
     },
   ];
 
   return (
     <Carousel>
-      <div>
-        <img src={beach} alt="put a project dec here"/>
+      <div className="carousel-style">
+        <img src={cocktailparty} alt="put a project dec here"/>
         <div className="legend ">
           <h1>{projects[0].title}</h1>
           <div className="">
@@ -57,13 +63,108 @@ function ProjectList() {
           <div className="flex links justify-center">
             <div className="grid grid-cols-1 grid-rows-1">
               <div className="deployed-github justify-center">
-                <a href={projects[0].github}>github</a>
-                <a href={projects[0].deployed}>deployed</a>
+                <a href={projects[0].github}>Github</a>
+                <a href={projects[0].deployed}>Deployed</a>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div className="carousel-style">
+        <img src={crono} alt="put a project dec here"/>
+        <div className="legend ">
+          <h1>{projects[3].title}</h1>
+          <div className="">
+            <p>{projects[3].description}</p>
+          </div>
+          <div className="flex links justify-center">
+            <div className="grid grid-cols-1 grid-rows-1">
+              <div className="deployed-github justify-center">
+                <a href={projects[3].github}>Github</a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="carousel-style">
+        <img src={ecommerce} alt="put a project dec here"/>
+        <div className="legend ">
+          <h1>{projects[2].title}</h1>
+          <div className="">
+            <p>{projects[2].description}</p>
+          </div>
+          <div className="flex links justify-center">
+            <div className="grid grid-cols-1 grid-rows-1">
+              <div className="deployed-github justify-center">
+                <a href={projects[2].github}>Github</a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="carousel-style">
+        <img src={photoport} alt="put a project dec here"/>
+        <div className="legend ">
+          <h1>{projects[1].title}</h1>
+          <div className="">
+            <p>{projects[1].description}</p>
+          </div>
+          <div className="flex links justify-center">
+            <div className="grid grid-cols-1 grid-rows-1">
+              <div className="deployed-github justify-center">
+                <a href={projects[1].github}>Github</a>
+                <a href={projects[1].deployed}>Deployed</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="carousel-style">
+        <img src={employeegenerator} alt="put a project dec here"/>
+        <div className="legend ">
+          <h1>{projects[4].title}</h1>
+          <div className="">
+            <p>{projects[4].description}</p>
+          </div>
+          <div className="flex links justify-center">
+            <div className="grid grid-cols-1 grid-rows-1">
+              <div className="deployed-github justify-center">
+                <a href={projects[4].github}>Github</a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="carousel-style">
+        <img src={notetaker} alt="put a project dec here"/>
+        <div className="legend ">
+          <h1>{projects[5].title}</h1>
+          <div className="">
+            <p>{projects[5].description}</p>
+          </div>
+          <div className="flex links justify-center">
+            <div className="grid grid-cols-1 grid-rows-1">
+              <div className="deployed-github justify-center">
+                <a href={projects[5].github}>Github</a>
+                <a href={projects[5].deployed}>Deployed</a>
+
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
     </Carousel>
   );
 }

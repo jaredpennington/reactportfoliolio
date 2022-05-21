@@ -19,6 +19,10 @@ color: #6a6173
 ;
 
 }
+.carousel-style {
+    padding: 25px;
+}
+
 .links {
     justify-content: center;
 }

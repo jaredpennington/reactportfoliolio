@@ -62,6 +62,9 @@ function Contact() {
         </svg>
         Linkedin
       </a>
+      <div>
+        put pdf thing here
+      </div>
     </section>
   );
 }

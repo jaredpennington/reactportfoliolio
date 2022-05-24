@@ -89,6 +89,9 @@ h4 {
   line-height: 160%;
   color: #f3f2f0;
 }
+.smaller-text {
+  font-size: medium !important;
+}
 .wider {
   width: 600px !important;
 }

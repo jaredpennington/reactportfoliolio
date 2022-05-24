@@ -15,13 +15,13 @@ function Nav(props) {
       } = props;
 
     return (
-        <header className='sticky border-b-8 py-2 header nav-color'>
+        <header className='sticky border-b-8 py-2 header nav-color '>
       <nav>
     
     
         <ul className="flex items-center ">
         <li>
-      <h2 className='px-4 text-3xl your-name'>
+      <h2 className='px-4 text-3xl your-name '>
         <a href="/">
            Jared Pennington
         </a>

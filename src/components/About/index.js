@@ -1,86 +1,84 @@
 import React from "react";
 import "./index.css";
-import condo from "../../assets/condo.jpg";
-import water from "../../assets/water.jpg";
-import van from "../../assets/van.JPG";
-
+import chalkboard from "../../assets/chalkboard.JPG";
+import flying from "../../assets/flying.jpg";
+import burntout from "../../assets/burntout.jpg";
 
 function About() {
   return (
     <div className="container mx-auto mt-6 ">
-    
-      <h1 className="text-4xl	">Nice to meet you! 
-      <h3 className="text-xs	">(unofficially)</h3></h1>
+      <h1 className="text-4xl	">
+        Nice to meet you!
+        <h3 className="text-xs">(unofficially)</h3>
+      </h1>
       <div id="about-me-desc">
-    <p className="text-left">
-      write about yourself in a good way and maybe use a selfie too? hmmmmmm. creating padding where the br tags are. figure out how to change the sizes of the flippers. also maybe only do like 4 flippers. </p>
-      <img src="https://images.pixieset.com/98880664/46c2be787cbb76cdf94e33127be2551e-medium.jpg"></img>
-    </div>
+        <img src="https://images.pixieset.com/98880664/46c2be787cbb76cdf94e33127be2551e-medium.jpg"></img>
+        <div className="mt-6 mb-1">
+          <p className="text-xl">
+            My name is Jared Pennington I am a photographer turned front end
+            software developer/designer as of June 2022. I still shoot a lot
+            espically on film and you'll notice that all the photos on this
+            portfolio are my own! Playing video games, listening to music, and
+            watching movies are among my other hobbies I thoroughly enjoy. I
+            have a passion for creating and would love to explore the avenues of
+            design in the tech industry.
+          </p>
+        </div>
+      </div>
 
+      <hr></hr>
 
-
-
-    <hr></hr>
-    
-      <h4 className="text-2xl ">Preferences</h4>
+      <h4 className="text-2xl mb-6">Preferences</h4>
       <div className="align-bottom cards-at-the-bottom">
-      <div className="flip">
-        <div className="front"
-         style={{
-            backgroundImage:
-              `url(${condo})`,
-          }}>
-          <h1 className="text-shadow">condo</h1>
+        <div className="flip">
+          <div
+            className="front"
+            style={{
+              backgroundImage: `url(${chalkboard})`,
+            }}
+          >
+            <h1 className="text-shadow">Music</h1>
+          </div>
+          <div className="back">
+            <h1>Artists</h1>
+            <p className="mt-2">Neck Deep, The Story so Far, Citizen, Modern Baseball, Hippo Campus, Pinegrove</p>
+          </div>
         </div>
-        <div className="back">
-          <h1>mooon</h1>
-          <p>this is da mon</p>
+        <div className="flip">
+          <div
+            className="front"
+            style={{
+              backgroundImage: `url(${flying})`,
+            }}
+          >
+            <h1 className="text-shadow">Entertainment</h1>
+          </div>
+          <div className="back">
+            <h1>Movies & Shows</h1>
+            <p className="mt-2">
+              Fantastic Mr. Fox, Demon Slayer, Sleepless in Seattle, Arrival, One Punch Man, Demolition, Love Death & Robots
+            </p>
+          </div>
         </div>
-      </div>
-      <div className="flip">
-        <div
-          className="front"
-          style={{
-            backgroundImage:
-              `url(${water})`,
-          }}
-        >
-         
-          <h1 className="text-shadow">OCEAN</h1>
-        </div>
-        <div className="back">
-          <h2>Angular</h2>
-          <p>
-            Good tools make application development quicker and easier to
-            maintain than if you did everyth1ng by hand..
-          </p>
-        </div>
-      </div>
 
-      <h4 className="text-2xl "></h4>
-      <div className="flip flip-vertical">
-        <div
-          className="front"
-          style={{
-            backgroundImage:
-              `url(${van})`,
-          }}
-        >
-          
-          <h1 className="text-shadow">TRACK</h1>
-        </div>
-        <div className="back">
-          <h2>Angular</h2>
-          <p>
-            Good tools make application development quicker and easier to
-            maintain than if you did everyth1ng by hand..
-          </p>
+        <h4 className="text-2xl "></h4>
+        <div className="flip flip-vertical wider">
+          <div
+            className="front"
+            style={{
+              backgroundImage: `url(${burntout})`,
+            }}
+          >
+            <h1 className="text-shadow">Miscellaneous</h1>
+          </div>
+          <div className="back">
+            <h1>Anything and Everything</h1>
+            <p className="mt-2">
+              Rasberry tea, staying up way too late, night time bike explorations, the art of good architecture, pesto pasta (or any pasta really), american traditional tattoos, dogs over cats.
+            </p>
+          </div>
         </div>
       </div>
-      
-        
-      
-    </div>
     </div>
   );
 }

@@ -25,7 +25,7 @@ module.exports = {
       '100': '#748386ff',
    },
    'opal': {
-    '100': '#9dc7c8ff',
+    '100': '#fff',
  },
 },},},
   plugins: [],

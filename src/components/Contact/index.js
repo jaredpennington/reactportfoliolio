@@ -1,8 +1,10 @@
 import React from "react";
+import resume from "../../assets/resume.pdf"
 
 function Contact() {
   return (
-    <section className="svg-container">
+    <section>
+    <div className="svg-container">
       <a href="mailto:jaredtookthis@gmail.com" className="contact-me-style">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -62,8 +64,16 @@ function Contact() {
         </svg>
         Linkedin
       </a>
-      <div>
-        put pdf thing here
+    </div>
+      <div className="pt-14">
+       <iframe
+       title="resume"
+       src={`${resume}`}
+       alt="My Resume"
+       height="500"
+       className="w-full"
+       scrolling="auto"
+       type="application/pdf"/>
       </div>
     </section>
   );

@@ -15,7 +15,7 @@ function ProjectList() {
     {
       title: "cocktail Party",
       description:
-        "a shit ton of text the ipsom shit looks ugly idc i dont like it ok you ",
+        "An app where you go search, review and share cocktail recipes. When you sign up you can post a photo and a recipe to share with others. You can also search your liquor of choice or by ingredient.​",
         github: "https://github.com/jaredpennington/cocktailParty",
         deployed: "https://cocktail-party-jp-ac.herokuapp.com/",
     },
@@ -45,7 +45,7 @@ function ProjectList() {
     },
     {
       title: "Note Taker",
-      description: "",
+      description: "you write notes and you save it. You can also click on notes to access the note you wrote.",
       github: "https://github.com/jaredpennington/notetaker",
       deployed: "https://jaredsnotes.herokuapp.com/notes",
     },

@@ -12,7 +12,7 @@ function About() {
         <h3 className="text-xs">(unofficially)</h3>
       </h1>
       <div id="about-me-desc">
-        <img src="https://images.pixieset.com/98880664/46c2be787cbb76cdf94e33127be2551e-medium.jpg"></img>
+        <img src="https://images.pixieset.com/98880664/46c2be787cbb76cdf94e33127be2551e-medium.jpg" alt="the developer"></img>
         <div className="mt-6 mb-1">
           <p className="text-xl">
             My name is Jared Pennington I am a photographer turned front end

@@ -4,7 +4,7 @@ Jared Pennington's 2022 React portfolio
 
 ## Links
 
-deployed link: https://reactportfoliolio-cswbo5rbl-jaredpennington.vercel.app/
+deployed link: https://reactportfoliolio-j0pnw4lg2-jaredpennington.vercel.app/
 
 github repo link: https://github.com/jaredpennington/reactportfoliolio
 
